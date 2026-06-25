@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME_DO_PROJETO | Dark Premium</title>
+    <meta name="description" content="Descrição do projeto.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav" id="mainNav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <span class="nav-logo-brand">LOGO<span>.</span></span>
+                    <span class="nav-logo-sub">Subtítulo</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn-gold btn-nav">Fale Conosco</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-inner">
+            <li><a href="#sobre" onclick="closeMobileNav()">Sobre</a></li>
+            <li><a href="#servicos" onclick="closeMobileNav()">Serviços</a></li>
+            <li><a href="#resultados" onclick="closeMobileNav()">Resultados</a></li>
+            <li><a href="#contato" onclick="closeMobileNav()">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-gold" onclick="closeMobileNav()">Fale Conosco</a>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="hero-badge"><span class="pulse"></span> Disponível agora</span>
+                        <h1 class="display-lg">Título <em>Principal</em> Aqui</h1>
+                        <p class="lead">Subheadline que complementa o título principal e explica o valor oferecido.</p>
+                        <div class="hero-actions">
+                            <a href="#contato" class="btn btn-gold">CTA Principal</a>
+                            <a href="#sobre" class="btn btn-outline">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal delay-2">
+                        <div class="hero-card">
+                            <div class="hero-card-icon">✦</div>
+                            <h3>Experiência Premium</h3>
+                            <p>Soluções sob medida para resultados excepcionais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="reveal-left">
+                        <span class="section-label">Sobre Nós</span>
+                        <h2 class="display-md">Quem <em>Somos</em></h2>
+                        <p class="lead">Conteúdo sobre a empresa, missão e valores.</p>
+                        <ul class="about-list">
+                            <li>✓ Item de destaque 1</li>
+                            <li>✓ Item de destaque 2</li>
+                            <li>✓ Item de destaque 3</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats reveal-right">
+                        <div class="stat-card">
+                            <div class="stat-number">+500</div>
+                            <div class="stat-label">Projetos Entregues</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="servicos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Nossos Serviços</span>
+                    <h2 class="display-md">O Que <em>Fazemos</em></h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-icon">01</div>
+                        <h3>Serviço Um</h3>
+                        <p>Descrição do primeiro serviço oferecido.</p>
+                    </div>
+                    <div class="service-card reveal delay-1">
+                        <div class="service-icon">02</div>
+                        <h3>Serviço Dois</h3>
+                        <p>Descrição do segundo serviço oferecido.</p>
+                    </div>
+                    <div class="service-card reveal delay-2">
+                        <div class="service-icon">03</div>
+                        <h3>Serviço Três</h3>
+                        <p>Descrição do terceiro serviço oferecido.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results" id="resultados">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Resultados</span>
+                    <h2 class="display-md">Números Que <em>Falam</em></h2>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item reveal"><span class="result-number">+1.000</span><span class="result-label">Clientes Atendidos</span></div>
+                    <div class="result-item reveal delay-1"><span class="result-number">+5.000</span><span class="result-label">Projetos Concluídos</span></div>
+                    <div class="result-item reveal delay-2"><span class="result-number">15+</span><span class="result-label">Anos de Experiência</span></div>
+                    <div class="result-item reveal delay-3"><span class="result-number">24h</span><span class="result-label">Suporte Dedicado</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <div class="container">
+                <div class="cta-content text-center reveal">
+                    <h2 class="display-md">Pronto Para <em>Começar</em>?</h2>
+                    <p class="lead">Entre em contato e descubra como podemos ajudar.</p>
+                    <a href="mailto:contato@email.com" class="btn btn-gold">Enviar E-mail</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <span>&copy; 2026 Projeto. Todos os direitos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainNav = document.getElementById('mainNav');
+            window.addEventListener('scroll', () => {
+                mainNav.classList.toggle('scrolled', window.scrollY > 40);
+            }, { passive: true });
+
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileNav = document.getElementById('mobileNav');
+            mobileToggle?.addEventListener('click', () => {
+                mobileNav?.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+                document.body.style.overflow = mobileNav?.classList.contains('active') ? 'hidden' : '';
+            });
+            window.closeMobileNav = () => {
+                mobileNav?.classList.remove('active');
+                mobileToggle?.classList.remove('active');
+                document.body.style.overflow = '';
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
+            document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>

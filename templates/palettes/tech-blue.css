@@ -1,0 +1,19 @@
+/* Paleta: Tech Azul */
+/* Uso: SaaS, startups tech, IA, segurança */
+/* Inspiração: GUARDBASE AI Security */
+
+:root {
+    --color-dark: #0b0f19;
+    --color-dark-light: #111827;
+    --color-primary: #3b82f6;
+    --color-primary-light: #93c5fd;
+    --color-primary-hover: #2563eb;
+    --color-accent: #06b6d4;
+    --color-surface: #111827;
+    --color-border: rgba(59, 130, 246, 0.15);
+    --color-cream: #f8fafc;
+    --color-white: #ffffff;
+    --color-text: #e2e8f0;
+    --color-text-muted: #94a3b8;
+    --color-text-dark: #1e293b;
+}

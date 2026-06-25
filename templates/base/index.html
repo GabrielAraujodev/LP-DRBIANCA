@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>NOME_DO_PROJETO | Tagline</title>
+    <meta name="description" content="Descrição do projeto para SEO.">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Autor">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="NOME_DO_PROJETO | Tagline">
+    <meta property="og:description" content="Descrição para redes sociais.">
+    <meta property="og:type" content="website">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="mainNav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo" id="logoLink">
+                    <span class="nav-logo-brand">LOGO<span>.</span></span>
+                    <span class="nav-logo-sub">Subtítulo</span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+                <a href="#contato" class="btn btn-primary btn-nav">CTA</a>
+                
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="display display-lg">Headline Principal</h1>
+                <p class="lead">Subheadline que complementa o título.</p>
+                <div class="hero-actions">
+                    <a href="#contato" class="btn btn-primary">CTA Principal</a>
+                    <a href="#sobre" class="btn btn-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTIONS -->
+        <section class="about" id="sobre">
+            <div class="container">
+                <span class="section-label">Sobre</span>
+                <h2 class="display display-md">Título da Seção</h2>
+                <p class="lead">Conteúdo da seção.</p>
+            </div>
+        </section>
+
+        <!-- CTA / CONTACT -->
+        <section class="cta" id="contato">
+            <div class="container">
+                <h2 class="display display-md">Call to Action</h2>
+                <p>Texto de encerramento.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Projeto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Nav scroll effect
+            const mainNav = document.getElementById('mainNav');
+            window.addEventListener('scroll', () => {
+                mainNav.classList.toggle('scrolled', window.scrollY > 40);
+            }, { passive: true });
+
+            // Mobile menu
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileNav = document.getElementById('mobileNav');
+            mobileToggle?.addEventListener('click', () => {
+                mobileNav?.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+            });
+
+            // Scroll reveal
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>

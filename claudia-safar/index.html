@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Cláudia Safar | Perícias Judiciais & Cálculos Financeiros e Trabalhistas</title>
+    <meta name="description" content="Perita Judicial e Assistente Técnica especializada em perícias contábeis, cálculos trabalhistas (PJe-Calc) e pareceres de impugnação de alta complexidade. Rigor, ética e exatidão.">
+    <meta name="keywords" content="perícia judicial, cálculos judiciais, cálculos trabalhistas, perita contábil, claudia safar, pje-calc, liquidação de sentença, assistente técnico">
+    <meta name="author" content="Cláudia Safar">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cláudia Safar | Perícias Judiciais & Cálculos Financeiros e Trabalhistas">
+    <meta property="og:description" content="Pareceres técnicos e liquidação de sentenças com rigor matemático e conformidade jurídica absoluta. Saiba mais.">
+    <meta property="og:type" content="website">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+    <nav class="nav" id="mainNav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo" id="logoLink">
+                    <span class="nav-logo-brand">Cláudia Safar<span>.</span></span>
+                    <span class="nav-logo-sub">Perícias & Cálculos</span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="#sobre">Quem Sou</a></li>
+                    <li><a href="#servicos">Especialidades</a></li>
+                    <li><a href="#metodo">Metodologia</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+                <div class="nav-cta-wrapper">
+                    <a href="#contato" class="btn btn-primary btn-nav">Solicitar Orçamento</a>
+                </div>
+                
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-inner">
+            <li><a href="#sobre" onclick="closeMobileNav()">Quem Sou</a></li>
+            <li><a href="#servicos" onclick="closeMobileNav()">Especialidades</a></li>
+            <li><a href="#metodo" onclick="closeMobileNav()">Metodologia</a></li>
+            <li><a href="#depoimentos" onclick="closeMobileNav()">Depoimentos</a></li>
+            <li><a href="#contato" onclick="closeMobileNav()">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-primary" onclick="closeMobileNav()">Solicitar Orçamento</a>
+    </div>
+
+    <main>
+        <!-- ==========================================================================
+           HERO SECTION
+           ========================================================================== -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-accent hero-bg-accent-1"></div>
+            <div class="hero-bg-accent hero-bg-accent-2"></div>
+            
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <div class="hero-tagline">
+                            <span class="pulse"></span> Atuação em Tribunais Estaduais e Federais
+                        </div>
+                        <h1 class="display display-lg">
+                            A exatidão dos números a favor da <em>justiça.</em>
+                        </h1>
+                        <p class="lead">
+                            Pareceres contábeis, cálculos judiciais trabalhistas (PJe-Calc) e financeiros com fundamentação técnica e segurança jurídica inquestionáveis.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contato" class="btn btn-primary">Falar com a Perita</a>
+                            <a href="#servicos" class="btn btn-outline">Nossas Especialidades</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual reveal delay-2">
+                        <div class="hero-artwork">
+                            <div class="decor-ring decor-ring-1"></div>
+                            <div class="decor-ring decor-ring-2"></div>
+                            <div class="decor-ring decor-ring-3"></div>
+                            
+                            <!-- Premium Core Emblem Card -->
+                            <div class="core-card">
+                                <div class="core-card-icon">
+                                    <!-- Custom Balança SVG -->
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="12" y1="3" x2="12" y2="21"></line>
+                                        <line x1="7" y1="21" x2="17" y2="21"></line>
+                                        <line x1="5" y1="7" x2="19" y2="7"></line>
+                                        <!-- Left Bowl -->
+                                        <path d="M12 7l-5 4H4v2h3l5-6"></path>
+                                        <path d="M5 13v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2v-2"></path>
+                                        <!-- Right Bowl -->
+                                        <path d="M12 7l5 4h3v2h-3l-5-6"></path>
+                                        <path d="M15 13v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2v-2"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="core-card-title">Rigor Técnico</h3>
+                                <div class="core-card-line"></div>
+                                <p class="core-card-desc">Conformidade e Fé Pública</p>
+                            </div>
+                            
+                            <!-- Floating Badges -->
+                            <div class="hero-float-badge hero-float-badge-1">
+                                <div class="hero-float-badge-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                                        <polyline points="10 9 9 9 8 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="hero-float-badge-info">
+                                    <h5>+3.800 Laudos</h5>
+                                    <p>Homologados em juízo</p>
+                                </div>
+                            </div>
+                            
+                            <div class="hero-float-badge hero-float-badge-2">
+                                <div class="hero-float-badge-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="hero-float-badge-info">
+                                    <h5>PJe-Calc</h5>
+                                    <p>Atualização legal completa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           ABOUT SECTION (QUEM SOU)
+           ========================================================================== -->
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper reveal-left">
+                        <div class="about-image-container">
+                            <div class="glass-overlay"></div>
+                            <div class="image-placeholder">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <h4>Cláudia Safar</h4>
+                                <p>Contadora (CRC) & Perita Contábil Judicial</p>
+                            </div>
+                        </div>
+                        <div class="about-accent-frame"></div>
+                    </div>
+                    
+                    <div class="about-content reveal-right">
+                        <span class="section-label">Quem Sou</span>
+                        <h2 class="display display-md">Sólida formação técnica, olhar <em>meticuloso.</em></h2>
+                        <p class="lead">
+                            Sou Cláudia Safar, contadora e perita contábil registrada, especializada na liquidação de sentenças complexas e assistência técnica corporativa.
+                        </p>
+                        <p style="margin-bottom: 2rem; color: var(--color-text-muted);">
+                            Minha atuação pauta-se no estrito respeito às normas contábeis, legislação em vigor e jurisprudências aplicáveis. Traduzo teses jurídicas e sentenças de difícil interpretação em relatórios numéricos precisos, atuando como o elo científico entre a contabilidade e o direito.
+                        </p>
+                        
+                        <div class="about-stats" id="counterSection">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="25">0</div>
+                                <div class="stat-label">Anos de Experiência</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="3500">0</div>
+                                <div class="stat-label">Laudos Emitidos</div>
+                            </div>
+                        </div>
+                        
+                        <ul class="about-points">
+                            <li class="about-point-item">
+                                <span class="about-point-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span class="about-point-text"><strong>Especialista em PJe-Calc:</strong> Elaboração e auditoria no sistema oficial da Justiça do Trabalho.</span>
+                            </li>
+                            <li class="about-point-item">
+                                <span class="about-point-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span class="about-point-text"><strong>Assessoria em Quesitos:</strong> Formulação estratégica de perguntas técnicas para instrução do processo.</span>
+                            </li>
+                            <li class="about-point-item">
+                                <span class="about-point-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span class="about-point-text"><strong>Manifestações e Impugnações:</strong> Defesa técnica perante laudos arbitrários ou superestimados.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           SERVICES SECTION (ESPECIALIDADES)
+           ========================================================================== -->
+        <section class="services" id="servicos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Áreas de Atuação</span>
+                    <h2 class="display display-md">Especialidades estruturadas com <em>rigor.</em></h2>
+                    <p class="lead">Estudos técnicos altamente especializados focados em fornecer soluções robustas para instrução processual.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1: Perícia Contábil -->
+                    <div class="service-card reveal">
+                        <div class="service-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                            </svg>
+                        </div>
+                        <h3>Perícia Contábil &amp; Financeira</h3>
+                        <p>Análise aprofundada de contratos de financiamento, apuração de juros abusivos em empréstimos e cartões, contabilidade corporativa e apuração de haveres de sócios.</p>
+                        <a href="#contato" class="service-card-learn">
+                            Entrar em Contato
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                    
+                    <!-- Service 2: Cálculos Trabalhistas -->
+                    <div class="service-card reveal delay-1">
+                        <div class="service-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Cálculos Trabalhistas &amp; PJe-Calc</h3>
+                        <p>Liquidação detalhada de sentenças trabalhistas no sistema PJe-Calc. Apuração precisa de horas extras, adicionais (insalubridade, periculosidade) e verbas reflexas.</p>
+                        <a href="#contato" class="service-card-learn">
+                            Entrar em Contato
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                    
+                    <!-- Service 3: Assistência Técnica -->
+                    <div class="service-card reveal delay-2">
+                        <div class="service-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3>Assistência Técnica a Advogados</h3>
+                        <p>Parceria estratégica com escritórios de advocacia. Formulação de quesitos inteligentes, impugnações técnicas substanciadas e acompanhamento crítico do perito judicial.</p>
+                        <a href="#contato" class="service-card-learn">
+                            Entrar em Contato
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           METHODOLOGY SECTION (COMO ATUAMOS)
+           ========================================================================== -->
+        <section class="methodology" id="metodo">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Como Atuamos</span>
+                    <h2 class="display display-md">Um protocolo de <em>precisão.</em></h2>
+                    <p class="lead">Garantimos conformidade absoluta e cumprimento rígido dos prazos judiciais através de uma metodologia transparente.</p>
+                </div>
+                
+                <div class="methodology-steps">
+                    <!-- Step 1 -->
+                    <div class="methodology-step reveal">
+                        <div class="step-num-badge">I</div>
+                        <h4>Triagem dos Autos</h4>
+                        <p>Análise detalhada da documentação fornecida e decisões judiciais da sentença original.</p>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="methodology-step reveal delay-1">
+                        <div class="step-num-badge">II</div>
+                        <h4>Elaboração Científica</h4>
+                        <p>Processamento dos cálculos periciais utilizando critérios legais, tabelas oficiais e PJe-Calc.</p>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="methodology-step reveal delay-2">
+                        <div class="step-num-badge">III</div>
+                        <h4>Auditoria e Validação</h4>
+                        <p>Dupla verificação de fórmulas e índices para assegurar laudos totalmente blindados.</p>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="methodology-step reveal delay-3">
+                        <div class="step-num-badge">IV</div>
+                        <h4>Parecer &amp; Entrega</h4>
+                        <p>Emissão de relatório descritivo fundamentado, facilitando a rápida aprovação do magistrado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           TESTIMONIALS SECTION (DEPOIMENTOS)
+           ========================================================================== -->
+        <section class="testimonials" id="depoimentos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Prova Social</span>
+                    <h2 class="display display-md">A voz de quem <em>confia.</em></h2>
+                    <p class="lead">Parceiros jurídicos e escritórios atestam a qualidade, o rigor científico e o atendimento de alto padrão.</p>
+                </div>
+                
+                <div class="testimonials-carousel reveal" id="testimonialsCarousel">
+                    <div class="testimonials-viewport" id="testimonialsViewport">
+                        <div class="testimonials-track" id="testimonialsTrack">
+                            <!-- Testimonial 1 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="quote-mark">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M11.192 15.757c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38zm6.48 0c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                    </div>
+                                    <blockquote>
+                                        "O laudo pericial contábil da Cláudia foi vital na nossa ação previdenciária. A fundamentação que ela apresentou sanou todas as dúvidas do magistrado rapidamente."
+                                    </blockquote>
+                                    <div class="testimonial-client">
+                                        <div class="testimonial-avatar">MR</div>
+                                        <div class="testimonial-info">
+                                            <h5>Dra. Mariana R.</h5>
+                                            <span>Sócia de Advocacia Civil</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="quote-mark">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M11.192 15.757c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38zm6.48 0c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                    </div>
+                                    <blockquote>
+                                        "Ela realiza a análise no PJe-Calc como ninguém. A precisão técnica em cálculos de alta complexidade nos permitiu reverter um laudo do juízo que estava eivado de vícios."
+                                    </blockquote>
+                                    <div class="testimonial-client">
+                                        <div class="testimonial-avatar">AS</div>
+                                        <div class="testimonial-info">
+                                            <h5>Dr. Antônio S.</h5>
+                                            <span>Especialista em Direito do Trabalho</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="quote-mark">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M11.192 15.757c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38zm6.48 0c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                    </div>
+                                    <blockquote>
+                                        "Excelente atendimento. Rigorosa no cumprimento dos prazos, entrega relatórios de auditoria financeira muito bem descritos e inteligíveis para nós advogados."
+                                    </blockquote>
+                                    <div class="testimonial-client">
+                                        <div class="testimonial-avatar">CP</div>
+                                        <div class="testimonial-info">
+                                            <h5>Dra. Carolina P.</h5>
+                                            <span>Sócia Administradora de Escritório Cível</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 4 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="quote-mark">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M11.192 15.757c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38zm6.48 0c0-.962-.782-1.743-1.745-1.743-.37 0-.71.115-.99.313.315-.815 1.135-1.39 2.1-1.39h.643v-1.92h-.643c-2.14 0-3.88 1.74-3.88 3.88v2.24h4.515v-1.38z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                        <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                    </div>
+                                    <blockquote>
+                                        "Minha equipe recorre à Cláudia para a assistência técnica preventiva. Seus quesitos de perícia bancária evitam perda de tese de defesa em fase de instrução."
+                                    </blockquote>
+                                    <div class="testimonial-client">
+                                        <div class="testimonial-avatar">FM</div>
+                                        <div class="testimonial-info">
+                                            <h5>Dr. Fábio M.</h5>
+                                            <span>Diretor do Departamento Contencioso</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" id="carouselPrev" aria-label="Depoimento Anterior">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <div class="carousel-dots" id="carouselDots">
+                            <!-- Generated Dynamically -->
+                        </div>
+                        <button class="carousel-btn" id="carouselNext" aria-label="Próximo Depoimento">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+           CTA & CONTACT SECTION (CONTATO)
+           ========================================================================== -->
+        <section class="cta" id="contato">
+            <div class="container">
+                <div class="cta-grid">
+                    <div class="cta-content reveal">
+                        <span class="section-label" style="color: var(--color-gold);">Contato Profissional</span>
+                        <h2 class="display display-md">Proteja suas teses jurídicas com <em>precisão técnica.</em></h2>
+                        <p>Preencha os dados do formulário ou entre em contato diretamente pelo canal de atendimento imediato. Analisaremos a viabilidade preliminar do caso com absoluto sigilo.</p>
+                        
+                        <div class="cta-info-items">
+                            <div class="cta-info-item">
+                                <div class="cta-info-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="cta-info-text">(11) 99876-5432</div>
+                            </div>
+                            
+                            <div class="cta-info-item">
+                                <div class="cta-info-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="cta-info-text">contato@claudiasafarpericias.com.br</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-card reveal delay-2">
+                        <h3>Solicitar Parecer</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ex: Dr. Marcelo Ramos" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail Corporativo</label>
+                                <input type="email" class="form-control" id="email" placeholder="marcelo@escritorio.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="specialty">Área da Perícia</label>
+                                <select class="form-control" id="specialty" style="background-color: #172033; color: white;" required>
+                                    <option value="" disabled selected>Selecione a especialidade</option>
+                                    <option value="contabil">Perícia Contábil / Financeira</option>
+                                    <option value="trabalhista">Cálculos Trabalhistas / PJe-Calc</option>
+                                    <option value="assistencia">Assistência Técnica Preventiva</option>
+                                    <option value="impugnacao">Impugnação de Laudo Contrapeso</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem / Resumo do Caso</label>
+                                <textarea class="form-control" id="message" placeholder="Descreva brevemente a demanda do processo judicial..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" id="submitBtn">Enviar Solicitação</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo" style="text-decoration: none;">
+                        <span class="nav-logo-brand" style="color: var(--color-white);">Cláudia Safar<span>.</span></span>
+                        <span class="nav-logo-sub" style="color: var(--color-text-light);">Perícias & Cálculos</span>
+                    </a>
+                    <p>Excelência pericial contábil com emissão de pareceres e cálculos de liquidação em rigorosa conformidade processual.</p>
+                </div>
+                
+                <div>
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Quem Sou</a></li>
+                        <li><a href="#servicos">Especialidades</a></li>
+                        <li><a href="#metodo">Metodologia</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Especialidades</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Perícia Contábil</a></li>
+                        <li><a href="#servicos">Cálculos Trabalhistas</a></li>
+                        <li><a href="#servicos">Assistência Técnica</a></li>
+                        <li><a href="#servicos">PJe-Calc Judicial</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Canais de Contato</h4>
+                    <ul class="footer-contact-list">
+                        <li class="footer-contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>(11) 99876-5432</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:contato@claudiasafarpericias.com.br">contato@claudiasafarpericias.com.br</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>São Paulo, SP — Atendimento Nacional</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <span>&copy; 2026 Cláudia Safar Perícias Judiciais. Todos os direitos reservados. CRC SP-29531.</span>
+                <div class="footer-bottom-links">
+                    <a href="#hero">Voltar ao Topo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button for WhatsApp -->
+    <a href="https://wa.me/5511998765432?text=Olá! Gostaria de solicitar um orçamento para perícia/cálculo." class="btn btn-whatsapp" style="position: fixed; bottom: 30px; right: 30px; border-radius: 50%; width: 56px; height: 56px; padding: 0; display: flex; align-items: center; justify-content: center; z-index: 998; box-shadow: 0 8px 30px rgba(37,211,102,0.4);" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- ==========================================================================
+       JAVASCRIPT
+       ========================================================================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // === 1. NAV SCROLL EFFECT ===
+            const mainNav = document.getElementById('mainNav');
+            const logoLink = document.getElementById('logoLink');
+            
+            const handleScroll = () => {
+                if (window.scrollY > 40) {
+                    mainNav.classList.add('scrolled');
+                } else {
+                    mainNav.classList.remove('scrolled');
+                }
+            };
+            window.addEventListener('scroll', handleScroll, { passive: true });
+
+            // === 2. MOBILE MENU INTERACTION ===
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileNav = document.getElementById('mobileNav');
+            
+            const toggleMobileNav = () => {
+                const isOpen = mobileNav.classList.contains('active');
+                mobileNav.classList.toggle('active', !isOpen);
+                mobileToggle.classList.toggle('active', !isOpen);
+                document.body.style.overflow = isOpen ? '' : 'hidden';
+            };
+
+            mobileToggle.addEventListener('click', toggleMobileNav);
+
+            window.closeMobileNav = () => {
+                mobileNav.classList.remove('active');
+                mobileToggle.classList.remove('active');
+                document.body.style.overflow = '';
+            };
+
+            // === 3. SCROLL REVEAL TRIGGERS ===
+            const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -40px 0px'
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+            
+            // Activate hero items instantly to feel responsive
+            document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
+
+            // === 4. STATS COUNTER ANIMATION ===
+            const counterSection = document.getElementById('counterSection');
+            const statNumbers = document.querySelectorAll('.stat-number');
+            let countersStarted = false;
+
+            const startCounters = () => {
+                statNumbers.forEach(counter => {
+                    const target = parseInt(counter.dataset.target);
+                    const duration = 2000; // 2 seconds
+                    const increment = target / (duration / 16); // 60fps
+                    let current = 0;
+
+                    const updateVal = () => {
+                        current += increment;
+                        if (current >= target) {
+                            counter.textContent = target >= 1000 ? `+${target.toLocaleString('pt-BR')}` : `+${target}`;
+                        } else {
+                            const currentInt = Math.floor(current);
+                            counter.textContent = currentInt >= 1000 ? `+${currentInt.toLocaleString('pt-BR')}` : `+${currentInt}`;
+                            requestAnimationFrame(updateVal);
+                        }
+                    };
+                    updateVal();
+                });
+            };
+
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !countersStarted) {
+                        countersStarted = true;
+                        startCounters();
+                        counterObserver.disconnect();
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            if (counterSection) counterObserver.observe(counterSection);
+
+            // === 5. PREMIUM CAROUSEL LOGIC ===
+            const track = document.getElementById('testimonialsTrack');
+            const viewport = document.getElementById('testimonialsViewport');
+            const prevBtn = document.getElementById('carouselPrev');
+            const nextBtn = document.getElementById('carouselNext');
+            const dotsContainer = document.getElementById('carouselDots');
+            
+            const slides = Array.from(track.children);
+            const totalSlides = slides.length;
+            let slideIndex = 0;
+            let itemsPerView = 3;
+
+            const calculateLayout = () => {
+                if (window.innerWidth <= 768) {
+                    itemsPerView = 1;
+                } else if (window.innerWidth <= 1024) {
+                    itemsPerView = 2;
+                } else {
+                    itemsPerView = 3;
+                }
+                
+                // Adjust slide widths dynamically
+                slides.forEach(slide => {
+                    slide.style.flex = `0 0 ${100 / itemsPerView}%`;
+                });
+                
+                createDots();
+                goToSlide(slideIndex, false);
+            };
+
+            const getMaxIndex = () => Math.max(0, totalSlides - itemsPerView);
+
+            const createDots = () => {
+                dotsContainer.innerHTML = '';
+                const maxDots = getMaxIndex() + 1;
+                for (let i = 0; i < maxDots; i++) {
+                    const dot = document.createElement('button');
+                    dot.className = 'carousel-dot';
+                    dot.setAttribute('aria-label', `Ir para slide ${i + 1}`);
+                    dot.addEventListener('click', () => goToSlide(i));
+                    dotsContainer.appendChild(dot);
+                }
+                updateDots();
+            };
+
+            const updateDots = () => {
+                const dots = Array.from(dotsContainer.children);
+                dots.forEach((dot, idx) => {
+                    dot.classList.toggle('active', idx === slideIndex);
+                });
+            };
+
+            const goToSlide = (index, animate = true) => {
+                const maxIndex = getMaxIndex();
+                slideIndex = Math.max(0, Math.min(index, maxIndex));
+                
+                if (!animate) {
+                    track.style.transition = 'none';
+                } else {
+                    track.style.transition = 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+                }
+                
+                const percent = slideIndex * (100 / itemsPerView);
+                track.style.transform = `translateX(-${percent}%)`;
+                
+                if (!animate) {
+                    // Force repaint
+                    track.offsetHeight;
+                }
+                
+                updateDots();
+            };
+
+            prevBtn.addEventListener('click', () => goToSlide(slideIndex - 1));
+            nextBtn.addEventListener('click', () => goToSlide(slideIndex + 1));
+
+            // Drag/Touch Support
+            let isDragging = false;
+            let startX = 0;
+            let currentX = 0;
+            let trackTranslateX = 0;
+
+            const getTranslateX = () => {
+                const style = window.getComputedStyle(track);
+                const matrix = new WebKitCSSMatrix(style.transform);
+                return matrix.m41;
+            };
+
+            const onStart = (e) => {
+                isDragging = true;
+                startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+                trackTranslateX = getTranslateX();
+                track.style.transition = 'none';
+            };
+
+            const onMove = (e) => {
+                if (!isDragging) return;
+                currentX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                const deltaX = currentX - startX;
+                track.style.transform = `translateX(${trackTranslateX + deltaX}px)`;
+            };
+
+            const onEnd = () => {
+                if (!isDragging) return;
+                isDragging = false;
+                const deltaX = currentX - startX;
+                const threshold = viewport.offsetWidth / itemsPerView / 3; // 1/3 item width
+                
+                if (Math.abs(deltaX) > threshold) {
+                    if (deltaX > 0) {
+                        goToSlide(slideIndex - 1);
+                    } else {
+                        goToSlide(slideIndex + 1);
+                    }
+                } else {
+                    goToSlide(slideIndex);
+                }
+            };
+
+            viewport.addEventListener('mousedown', onStart);
+            viewport.addEventListener('mousemove', onMove);
+            window.addEventListener('mouseup', onEnd);
+            
+            viewport.addEventListener('touchstart', onStart, { passive: true });
+            viewport.addEventListener('touchmove', onMove, { passive: true });
+            viewport.addEventListener('touchend', onEnd);
+
+            // Auto-advance
+            let autoPlayTimer = setInterval(() => {
+                const max = getMaxIndex();
+                goToSlide(slideIndex >= max ? 0 : slideIndex + 1);
+            }, 6000);
+
+            const resetAutoPlay = () => {
+                clearInterval(autoPlayTimer);
+                autoPlayTimer = setInterval(() => {
+                    const max = getMaxIndex();
+                    goToSlide(slideIndex >= max ? 0 : slideIndex + 1);
+                }, 6000);
+            };
+
+            // Pause autoplay on mouse enter / resume on leave
+            viewport.addEventListener('mouseenter', () => clearInterval(autoPlayTimer));
+            viewport.addEventListener('mouseleave', resetAutoPlay);
+
+            window.addEventListener('resize', calculateLayout);
+            calculateLayout();
+
+            // === 6. SMOOTH SCROLL FOR IN-PAGE LINKS ===
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetEl = document.querySelector(targetId);
+                    if (targetEl) {
+                        e.preventDefault();
+                        const headerOffset = 84;
+                        const elementPosition = targetEl.getBoundingClientRect().top + window.pageYOffset;
+                        const offsetPosition = elementPosition - headerOffset;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // === 7. FORM SUBMISSION INTERACTION ===
+            const contactForm = document.getElementById('contactForm');
+            const submitBtn = document.getElementById('submitBtn');
+
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Enviando...';
+                
+                // Simulate network request
+                setTimeout(() => {
+                    submitBtn.style.background = '#25d366';
+                    submitBtn.style.borderColor = '#25d366';
+                    submitBtn.textContent = 'Enviado com Sucesso!';
+                    contactForm.reset();
+                    
+                    setTimeout(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.style.background = '';
+                        submitBtn.style.borderColor = '';
+                        submitBtn.textContent = 'Enviar Solicitação';
+                    }, 3000);
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>

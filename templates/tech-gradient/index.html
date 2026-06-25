@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME_DO_PROJETO | Tech Gradient</title>
+    <meta name="description" content="Descrição do projeto.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav" id="mainNav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <span class="nav-logo-brand">◆ LOGO</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn-gradient btn-nav">Começar</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-inner">
+            <li><a href="#features" onclick="closeMobileNav()">Features</a></li>
+            <li><a href="#como-funciona" onclick="closeMobileNav()">Como Funciona</a></li>
+            <li><a href="#precos" onclick="closeMobileNav()">Preços</a></li>
+            <li><a href="#contato" onclick="closeMobileNav()">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-gradient" onclick="closeMobileNav()">Começar</a>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+            <div class="hero-glow hero-glow-3"></div>
+            <div class="container">
+                <div class="hero-content text-center reveal">
+                    <span class="hero-badge">🚀 v2.0 Lançamento</span>
+                    <h1 class="display-lg">Construa O Futuro<br>Com <span class="gradient-text">Inteligência</span></h1>
+                    <p class="lead">Plataforma completa para empresas que querem escalar com tecnologia de ponta e automação inteligente.</p>
+                    <div class="hero-actions">
+                        <a href="#contato" class="btn btn-gradient">Teste 14 Dias Grátis</a>
+                        <a href="#como-funciona" class="btn btn-glass">Ver Demo →</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="hero-stat-num">10K+</span>
+                            <span class="hero-stat-label">Usuários Ativos</span>
+                        </div>
+                        <div class="hero-stat-divider"></div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-num">99.9%</span>
+                            <span class="hero-stat-label">Uptime</span>
+                        </div>
+                        <div class="hero-stat-divider"></div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-num">4.9★</span>
+                            <span class="hero-stat-label">Avaliação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="badge">Features</span>
+                    <h2 class="display-md">Tudo Que Você <span class="gradient-text">Precisa</span></h2>
+                    <p class="lead">Ferramentas poderosas para transformar a forma como você trabalha.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass-card reveal">
+                        <div class="feature-icon-wrap"><span>🤖</span></div>
+                        <h3>IA Integrada</h3>
+                        <p>Automatize tarefas repetivas com inteligência artificial avançada.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-1">
+                        <div class="feature-icon-wrap"><span>⚡</span></div>
+                        <h3>Ultra Rápido</h3>
+                        <p>Processamento em tempo real com latência mínima.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-2">
+                        <div class="feature-icon-wrap"><span>🔗</span></div>
+                        <h3>Integrações</h3>
+                        <p>Conecte com 200+ ferramentas que você já usa.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-3">
+                        <div class="feature-icon-wrap"><span>📊</span></div>
+                        <h3>Analytics</h3>
+                        <p>Dashboards em tempo real para decisões informadas.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-4">
+                        <div class="feature-icon-wrap"><span>🛡️</span></div>
+                        <h3>Segurança</h3>
+                        <p>Encriptação de ponta a ponta e compliance total.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-4">
+                        <div class="feature-icon-wrap"><span>🌐</span></div>
+                        <h3>Global</h3>
+                        <p>Deploy global com CDN em 50+ regiões.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="como-funciona">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="badge">Processo</span>
+                    <h2 class="display-md">Como <span class="gradient-text">Funciona</span></h2>
+                </div>
+                <div class="steps">
+                    <div class="step reveal">
+                        <div class="step-num">01</div>
+                        <h3>Cadastre-se</h3>
+                        <p>Crie sua conta em menos de 2 minutos.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step reveal delay-1">
+                        <div class="step-num">02</div>
+                        <h3>Configure</h3>
+                        <p>Conecte suas ferramentas e personalize.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step reveal delay-2">
+                        <div class="step-num">03</div>
+                        <h3>Escale</h3>
+                        <p>Veja resultados crescentes semana após semana.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="precos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="badge">Preços</span>
+                    <h2 class="display-md">Planos <span class="gradient-text">Simples</span></h2>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card glass-card reveal">
+                        <h3>Starter</h3>
+                        <div class="price"><span class="price-currency">R$</span><span class="price-value">97</span><span class="price-period">/mês</span></div>
+                        <ul class="pricing-features">
+                            <li>✓ 1.000 créditos/mês</li>
+                            <li>✓ 3 integrações</li>
+                            <li>✓ Suporte por e-mail</li>
+                        </ul>
+                        <a href="#contato" class="btn btn-glass btn-full">Começar</a>
+                    </div>
+                    <div class="pricing-card glass-card featured reveal delay-1">
+                        <span class="pricing-badge">Mais Popular</span>
+                        <h3>Pro</h3>
+                        <div class="price"><span class="price-currency">R$</span><span class="price-value">297</span><span class="price-period">/mês</span></div>
+                        <ul class="pricing-features">
+                            <li>✓ 10.000 créditos/mês</li>
+                            <li>✓ Integrações ilimitadas</li>
+                            <li>✓ Suporte prioritário</li>
+                            <li>✓ API access</li>
+                        </ul>
+                        <a href="#contato" class="btn btn-gradient btn-full">Começar</a>
+                    </div>
+                    <div class="pricing-card glass-card reveal delay-2">
+                        <h3>Enterprise</h3>
+                        <div class="price"><span class="price-value">Sob consulta</span></div>
+                        <ul class="pricing-features">
+                            <li>✓ Créditos ilimitados</li>
+                            <li>✓ SLA garantido</li>
+                            <li>✓ Account manager</li>
+                            <li>✓ On-premise</li>
+                        </ul>
+                        <a href="#contato" class="btn btn-glass btn-full">Falar com Vendas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <div class="cta-glow"></div>
+            <div class="container">
+                <div class="cta-content text-center reveal">
+                    <h2 class="display-md">Pronto Para <span class="gradient-text">Começar</span>?</h2>
+                    <p class="lead">Junte-se a milhares de empresas que já estão escalando.</p>
+                    <a href="mailto:contato@email.com" class="btn btn-gradient">Criar Conta Grátis</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <span>&copy; 2026 Projeto. Todos os direitos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainNav = document.getElementById('mainNav');
+            window.addEventListener('scroll', () => {
+                mainNav.classList.toggle('scrolled', window.scrollY > 40);
+            }, { passive: true });
+
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileNav = document.getElementById('mobileNav');
+            mobileToggle?.addEventListener('click', () => {
+                mobileNav?.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+                document.body.style.overflow = mobileNav?.classList.contains('active') ? 'hidden' : '';
+            });
+            window.closeMobileNav = () => {
+                mobileNav?.classList.remove('active');
+                mobileToggle?.classList.remove('active');
+                document.body.style.overflow = '';
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+            document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>

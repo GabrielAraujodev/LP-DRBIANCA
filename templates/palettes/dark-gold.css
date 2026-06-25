@@ -1,0 +1,19 @@
+/* Paleta: Dark Premium */
+/* Uso: Advocacia, perícias, serviços premium, consultoria */
+/* Inspiração: Cláudia Safar, Stillwood Residences */
+
+:root {
+    --color-dark: #0a0e17;
+    --color-dark-light: #131c2e;
+    --color-dark-gray: #1e293b;
+    --color-gold: #d4af37;
+    --color-gold-light: #f5eccd;
+    --color-gold-hover: #c59b27;
+    --color-gold-pale: #fcf9f2;
+    --color-cream: #faf8f5;
+    --color-white: #ffffff;
+    --color-border: rgba(212, 175, 55, 0.18);
+    --color-text: #2c3345;
+    --color-text-muted: #5e667c;
+    --color-text-light: #94a3b8;
+}

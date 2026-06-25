@@ -1,0 +1,19 @@
+/* Paleta: Soft Healthcare */
+/* Uso: Saúde, bem-estar, clínicas, medtech */
+/* Inspiração: Transform9 Healthcare AI */
+
+:root {
+    --color-dark: #1a1f2e;
+    --color-dark-light: #252b3b;
+    --color-primary: #6366f1;
+    --color-primary-light: #a5b4fc;
+    --color-primary-hover: #4f46e5;
+    --color-accent: #34d399;
+    --color-accent-light: #a7f3d0;
+    --color-cream: #f8fafc;
+    --color-white: #ffffff;
+    --color-border: rgba(99, 102, 241, 0.15);
+    --color-text: #1e293b;
+    --color-text-muted: #64748b;
+    --color-text-light: #94a3b8;
+}

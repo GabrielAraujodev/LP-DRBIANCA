@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME_DO_PROJETO | Light Clean</title>
+    <meta name="description" content="Descrição do projeto.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav" id="mainNav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <span class="nav-logo-brand">LOGO</span>
+                    <span class="nav-logo-sub">Soluções</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn-primary btn-nav">Começar Agora</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-inner">
+            <li><a href="#sobre" onclick="closeMobileNav()">Sobre</a></li>
+            <li><a href="#servicos" onclick="closeMobileNav()">Serviços</a></li>
+            <li><a href="#depoimentos" onclick="closeMobileNav()">Depoimentos</a></li>
+            <li><a href="#contato" onclick="closeMobileNav()">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-primary" onclick="closeMobileNav()">Começar Agora</a>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="hero-badge">✦ Nova versão disponível</span>
+                        <h1 class="display-lg">Soluções <em>Inteligentes</em> Para Seu Negócio</h1>
+                        <p class="lead">Simplificamos processos complexos para que você foque no que realmente importa: crescer.</p>
+                        <div class="hero-actions">
+                            <a href="#contato" class="btn btn-primary">Teste Grátis</a>
+                            <a href="#sobre" class="btn btn-outline">Ver Demo</a>
+                        </div>
+                        <div class="hero-trust">
+                            <span>Utilizado por +2.000 empresas</span>
+                            <div class="hero-logos">●●●●●</div>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal delay-2">
+                        <div class="hero-mockup">
+                            <div class="mockup-header">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="mockup-line"></div>
+                                <div class="mockup-line short"></div>
+                                <div class="mockup-line"></div>
+                                <div class="mockup-block"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="about-header text-center reveal">
+                    <span class="section-label">Por Que Nós</span>
+                    <h2 class="display-md">Feito Para <em>Resultado</em></h2>
+                    <p class="lead">Combinação perfeita entre tecnologia de ponta e atendimento humanizado.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Velocidade</h3>
+                        <p>Processos otimizados para entrega rápida e eficiente.</p>
+                    </div>
+                    <div class="feature-card reveal delay-1">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Segurança</h3>
+                        <p>Dados protegidos com as melhores práticas do mercado.</p>
+                    </div>
+                    <div class="feature-card reveal delay-2">
+                        <div class="feature-icon">📈</div>
+                        <h3>Escalabilidade</h3>
+                        <p>Soluções que crescem junto com o seu negócio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="servicos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Serviços</span>
+                    <h2 class="display-md">O Que <em>Oferecemos</em></h2>
+                </div>
+                <div class="services-list">
+                    <div class="service-row reveal">
+                        <div class="service-num">01</div>
+                        <div class="service-info">
+                            <h3>Consultoria Estratégica</h3>
+                            <p>Planejamento personalizado para maximizar seus resultados.</p>
+                        </div>
+                        <a href="#contato" class="btn btn-outline btn-sm">Saiba Mais →</a>
+                    </div>
+                    <div class="service-row reveal delay-1">
+                        <div class="service-num">02</div>
+                        <div class="service-info">
+                            <h3>Implementação Técnica</h3>
+                            <p>Execução ágil com acompanhamento dedicado.</p>
+                        </div>
+                        <a href="#contato" class="btn btn-outline btn-sm">Saiba Mais →</a>
+                    </div>
+                    <div class="service-row reveal delay-2">
+                        <div class="service-num">03</div>
+                        <div class="service-info">
+                            <h3>Suporte Contínuo</h3>
+                            <p>Monitoramento e otimização constante.</p>
+                        </div>
+                        <a href="#contato" class="btn btn-outline btn-sm">Saiba Mais →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-label">Depoimentos</span>
+                    <h2 class="display-md">O Que Dizem <em>Nossos Clientes</em></h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card reveal">
+                        <div class="stars">★★★★★</div>
+                        <blockquote>"Resultado impressionante. Superou todas as expectativas."</blockquote>
+                        <div class="client">
+                            <div class="avatar">MR</div>
+                            <div><strong>Maria R.</strong><br><span>Diretora de Marketing</span></div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card reveal delay-1">
+                        <div class="stars">★★★★★</div>
+                        <blockquote>"Profissionalismo e entrega pontual. Recomendo."</blockquote>
+                        <div class="client">
+                            <div class="avatar">JS</div>
+                            <div><strong>João S.</strong><br><span>CEO, StartupX</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <div class="container">
+                <div class="cta-content text-center reveal">
+                    <h2 class="display-md">Vamos <em>Começar</em>?</h2>
+                    <p class="lead">Agende uma conversa gratuita e descubra o potencial do seu negócio.</p>
+                    <div class="cta-actions">
+                        <a href="mailto:contato@email.com" class="btn btn-primary">Agendar Call</a>
+                        <a href="https://wa.me/5511999999999" class="btn btn-outline">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <span>&copy; 2026 Projeto. Todos os direitos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainNav = document.getElementById('mainNav');
+            window.addEventListener('scroll', () => {
+                mainNav.classList.toggle('scrolled', window.scrollY > 40);
+            }, { passive: true });
+
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileNav = document.getElementById('mobileNav');
+            mobileToggle?.addEventListener('click', () => {
+                mobileNav?.classList.toggle('active');
+                mobileToggle.classList.toggle('active');
+                document.body.style.overflow = mobileNav?.classList.contains('active') ? 'hidden' : '';
+            });
+            window.closeMobileNav = () => {
+                mobileNav?.classList.remove('active');
+                mobileToggle?.classList.remove('active');
+                document.body.style.overflow = '';
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+            document.querySelectorAll('.hero .reveal').forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>
